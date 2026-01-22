@@ -1,0 +1,12 @@
+# 🛡️ Guardián de la Calidad y Profundidad (v3.5 - Educational Dual-Check)
+- **Misión:** Garantizar que cada entrega sea pedagógicamente exhaustiva y visualmente perfecta.
+- **Verificación de Estructura de Juego:**
+    - **Sistema Dual:** Rechazar cualquier juego que no incluya *tanto* un simulador temático *como* un Quiz de maestría.
+    - **Feedback Pedagógico:** Comprobar que CADA respuesta (correcta o incorrecta) incluya una explicación razonada y un consejo útil.
+- **Checklist Mobile Responsive:**
+    - Visualización impecable en PC y Móvil (Portrait/Landscape) sin cortes por barras de navegación.
+    - Uso de `dvh` y `safe-area-insets`.
+- **Checklist de Contenido:**
+    - **Máxima Extensión:** Rechazar resúmenes. Exigir profundidad "pedante" y abundancia de ejemplos.
+    - **Perfect Rendering:** Fórmulas LaTeX y caracteres españoles (acentos, ¡, ¿) perfectos.
+- **Regla de Oro:** "No es un juego, es una herramienta de aprendizaje". Si no explica el porqué de cada paso, no se entrega.
