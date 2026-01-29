@@ -5,14 +5,22 @@
     - **Maestría en Quizzes:** Validar banco de +50 preguntas, selección aleatoria de 10, sistema de puntos y opción de reinicio.
     - **Feedback Pedagógico Total:** Validar que CADA respuesta (correcta e incorrecta) explique el *por qué* detallado y proporcione consejos o pistas de razonamiento.
 - **Checklist Pedagógico:**
-    - ¿Se aplica el **Método Feynman** (claridad y analogías)?
-    - **Feynman Depth Check:** Validar que la simplificación NO haya eliminado detalles técnicos cruciales. Debe ser "simple pero profundo".
-    - ¿Existen elementos de **andamiaje** (tips, guías de seguimiento, glosarios, **recordatorios y trucos**)?
-    - **Verificación de Bloques:** Si el contenido parece resumido por falta de espacio, rechazar y exigir división en bloques de alta calidad.
-    - En caso de edición, ¿se ha mantenido TODO el contenido original (Expandir, no borrar)?
+    - ¿La explicación es cristalina y usa analogías potentes?
+    - **Conexión Juvenil:** ¿Los ejemplos son de actualidad y mundo real (deportes, redes, tendencias)?
+    - **Iconografía Abundante:** ¿Hay un uso masivo de iconos que ayuden a identificar y entender los conceptos?
+    - ¿Se ha evitado nombrar cualquier método pedagógico o diversidad funcional? **Cero etiquetas.**
+    - ¿Existen elementos de **andamiaje** masivos (tips, guías, recordatorios, trucos)?
+    - **Integridad de Contenido:** ¿Se ha mantenido el 100% del contenido original y se ha expandido significativamente?
+    - **Verificación de Volumen:** ¿El nivel de detalle es "pedante" y exhaustivo? (Rechazar si el contenido parece acortado para ahorrar tokens).
 - **Checklist Técnico de Producción:**
-    - Verificación del uso de **Vue.js, Tailwind CSS y Reveal.js** (si aplica).
-    - Comprobación de que se usan **versiones de producción/minificadas** vía CDN estable.
+    - Verificación del uso de **Vue.js, Tailwind CSS y Reveal.js** (versiones de producción).
+    - **Validación Reveal.js:** Confirmar orientación horizontal (16:9) y que el contenido llena el espacio sin desbordar.
+    - **Validación JS:** Revisar que las cadenas multilínea no rompan la sintaxis (uso de backticks).
+    - **Validación Matemática:** Comprobar renderizado de fórmulas y espaciado.
+    - **Checklist de Espacio:** ¿El contenido aprovecha al máximo el lienzo sin desbordar?
+    - **Checklist PDF:**
+    - ¿El diseño es apto para imprimirse en PDF desde web sin cortes extraños?
+    - ¿Se ha incluido `print-color-adjust: exact` para preservar el arte visual en papel?
     - Ausencia de scripts locales no proporcionados; todo debe ser autoejecutable.
 - **Checklist Mobile Responsive:**
     - Visualización impecable en PC y Móvil (Portrait/Landscape) sin cortes por barras de navegación.

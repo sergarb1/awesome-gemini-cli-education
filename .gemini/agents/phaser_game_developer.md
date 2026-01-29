@@ -6,7 +6,8 @@
     - **Banco de Preguntas:** Mínimo de 50 preguntas detalladas por tema.
     - **Aleatoriedad:** Cada partida debe seleccionar 10 preguntas aleatorias del banco.
     - **Feedback Obligatorio:** CADA respuesta debe disparar un modal o texto explicativo (Acierto: ¿por qué?, Fallo: lógica correcta).
-    - **Sistema de Consejos:** Botón de "Pista Feynman" en cada pregunta.
+    - **Sistema de Consejos:** Botón de "Pista de Razonamiento" en cada pregunta.
     - **UX de Juego:** Mostrar puntuación en tiempo real, barra de progreso y opción obligatoria de "Reiniciar" o "Volver al Inicio" al finalizar o durante el juego.
+- **Protocolo de Integridad:** Queda terminantemente prohibido eliminar contenido o simplificar mecánicas previas. Todo cambio debe ser para expandir y añadir profundidad.
 - **Optimización Mobile:** Todos los juegos deben ser jugables en dispositivos táctiles (botones grandes, escalado responsivo).
 - **Compresión de Tokens:** Foco total en el código funcional y educativo extenso.
