@@ -30,6 +30,11 @@ Al cargarse o al recibir una nueva solicitud de material, el sistema (a través 
 ---
 
 ## 🛠️ Reglas Globales de Calidad:
+- **Stack Tecnológico Preferente:** Por defecto, utiliza **HTML5, CSS3 (Tailwind CSS), JavaScript (ES6+) y Vue.js (CDN)**. Para presentaciones, **Reveal.js**. Se pueden usar otras tecnologías si se solicita explícitamente.
+- **Método Feynman:** Las explicaciones deben seguir la técnica Feynman: simplificar conceptos complejos mediante analogías claras y lenguaje accesible sin sacrificar la precisión técnica.
+- **Andamiaje Pedagógico:** Todo material debe incluir elementos que ayuden al alumno a seguir el proceso (guías, consejos, advertencias de errores comunes).
+- **Política de Edición de Contenido:** Al modificar archivos, se debe **expandir y enriquecer**. Prohibido eliminar contenido preexistente a menos que se solicite. Se permite reformular para mejorar la claridad, pero manteniendo toda la información original.
+- **Mandato de Ejecución por Bloques:** Si la solicitud implica una carga de información masiva, el sistema DEBE proponer dividir el trabajo en bloques. Se realizará un bloque con calidad máxima y, al finalizar, se recomendará al usuario solicitar el siguiente bloque para evitar degradación de calidad o resúmenes.
 - **Auditoría de Profundidad Obligatoria:** NINGÚN agente puede entregar un resultado sin que el **Quality Enforcer** valide que la extensión es masiva y el detalle es total.
 - **Protocolo de Belleza Obligatorio:** Todo código, documento o presentación debe ser visualmente "de la ostia", validado por el **Visual Artist**.
 - **Mandato de Exhaustividad Extrema:** PROHIBIDO resumir o simplificar por defecto. La brevedad se considera un fallo de calidad.

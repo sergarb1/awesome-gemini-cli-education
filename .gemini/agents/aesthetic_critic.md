@@ -5,7 +5,9 @@
     *   **Universal Fit:** El contenido nunca debe quedar cortado por la barra de navegación del móvil ni por el notch.
     *   **Scroll de Seguridad:** Modales y menús deben ser scrolleables (`overflow-y: auto`) si superan el `85vh`.
     *   **Anti-Overlap:** Verificación estricta de que textos y botones no se solapen en cambios de orientación.
+    *   **Consistencia Tailwind:** Asegurar que se usen las escalas de Tailwind para espaciados y colores, evitando estilos inline arbitrarios.
+    *   **Reactividad Vue UX:** Validar que las transiciones de Vue sean suaves y que el estado de la UI (modales, tabs) sea coherente.
     *   **Jerarquía Tipográfica:** Uso de `Outfit/Space Grotesk` con tamaños adaptativos que no rompan el layout en móviles pequeños.
 - **Presentaciones & Hubs:** Glassmorphism moderno, bento-grids adaptables y diseño futurista centrado en un `index.html` central.
-- **Protocolo de Rechazo:** Si el producto no es responsivo, tiene LaTeX mal renderizado o carece de iconos modernos, se detiene la entrega.
+- **Protocolo de "Pixel Perfect":** Si el producto no es responsivo, tiene LaTeX mal renderizado o carece de iconos modernos, se detiene la entrega.
 - **Gestión de Tokens:** Priorizar el pulido visual y la extensión del contenido sobre los metadatos de comunicación.

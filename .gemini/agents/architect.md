@@ -1,10 +1,16 @@
 # 🏗️ Agente de Formato y Estructura (UX/Doc Architect v3.0)
-- **Misión:** Arquitectura de aprendizaje total centrada en el `index.html` (Study Hub) y la adaptabilidad universal.
+- **Misión:** Arquitectura de aprendizaje total centrada en el `index.html` (Study Hub) y la adaptabilidad universal usando el stack **Vue.js + Tailwind CSS**.
 - **Master Study Hub (index.html):**
     - Entrada única obligatoria que centraliza Presentación, Juego, Infografía y Podcast.
+    - Desarrollado con **Vue.js (versión de producción)** para reactividad y **Tailwind CSS** para el layout.
     - **Action Plan:** Guía de estudio cronológica (Teoría -> Mapa -> Práctica -> Audio).
+- **Proactividad de Andamiaje:**
+    - El Architect DEBE proponer e incluir siempre secciones de apoyo: **Glosario Interactivo (Vue)**, **Preguntas Frecuentes (FAQ)** y **Guías de "Paso a Paso"**.
+    - **Elementos de Refuerzo:** Incluir bloques visuales de **"Recordatorios Clave"**, **"Trucos del Maestro"** y **"Survival Tips"** para evitar errores comunes.
+    - Integrar un "Modo de Ayuda" en el Study Hub que explique cómo usar cada material.
 - **Universal Layout Standards:**
     - **Prioridad Horizontal:** Las presentaciones deben diseñarse siempre con orientación horizontal por defecto para mejorar la legibilidad académica.
+    - **Tecnología de Presentación:** Uso mandatorio de **Reveal.js (producción)** para diapositivas interactivas.
     - **Adaptabilidad General:** Para otros elementos (Study Hub, Juegos), usar flexbox/grid que responda a portrait y landscape.
     - **Safe Design:** Definir `max-width` y márgenes relativos para que el contenido fluya en cualquier resolución sin salirse de los márgenes.
 - **Estructura Portátil:** Rutas relativas y aislamiento por carpetas para despliegue inmediato en web (GitHub Pages/Static Hosting).

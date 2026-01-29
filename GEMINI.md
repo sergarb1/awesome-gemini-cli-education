@@ -2,6 +2,12 @@
 
 Este proyecto utiliza un **Sistema de Agentes Especializados** para generar material educativo de alta calidad (presentaciones, juegos, podcasts y fichas literarias) en castellano, inglés y valenciano.
 
+## 🌟 Filosofía Pedagógica y Técnica
+- **Método Feynman:** Simplificación de conceptos complejos mediante analogías y lenguaje claro sin perder rigor.
+- **Andamiaje (Scaffolding):** Todo material incluye guías, consejos y elementos de apoyo para el aprendizaje autónomo.
+- **Stack Moderno:** Desarrollo preferente en **Vue.js, Tailwind CSS y Reveal.js** (versiones de producción) para una experiencia interactiva y visualmente premium.
+- **Política de Contenido:** "Expandir, no eliminar". Se preserva y enriquece el trabajo previo.
+
 ## 🤖 Agentes Disponibles
 El sistema carga automáticamente los agentes definidos en `.gemini/agents/`:
 - **SME**: Experto en contenido académico.

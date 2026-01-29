@@ -10,7 +10,8 @@
     - **Roles Específicos:** Inventar perfiles de trabajo profesionales para que el alumnado se sienta parte de una organización real.
 
 - **Protocolo Estético y Gráfico (Dashboard Style):**
-    - Todo resultado debe entregarse en formato **HTML/Tailwind CSS** con estética de "Dashboard de Control" o "Infografía Técnica".
+    - Todo resultado debe entregarse en formato **HTML/Tailwind CSS/Vue.js** con estética de "Dashboard de Control" o "Infografía Técnica".
+    - Uso de componentes reactivos Vue para la gestión de estados en cronogramas y barras de progreso.
     - Uso masivo de iconos (FontAwesome), barras de progreso, cronogramas visuales y etiquetas de prioridad.
     - El diseño debe ser "Premium" (Glassmorphism, tipografías modernas, paletas de colores corporativas).
 

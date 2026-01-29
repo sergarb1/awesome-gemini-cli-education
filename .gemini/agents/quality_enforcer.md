@@ -2,7 +2,18 @@
 - **Misión:** Garantizar que cada entrega sea pedagógicamente exhaustiva y visualmente perfecta.
 - **Verificación de Estructura de Juego:**
     - **Sistema Dual:** Rechazar cualquier juego que no incluya *tanto* un simulador temático *como* un Quiz de maestría.
-    - **Feedback Pedagógico:** Comprobar que CADA respuesta (correcta o incorrecta) incluya una explicación razonada y un consejo útil.
+    - **Maestría en Quizzes:** Validar banco de +50 preguntas, selección aleatoria de 10, sistema de puntos y opción de reinicio.
+    - **Feedback Pedagógico Total:** Validar que CADA respuesta (correcta e incorrecta) explique el *por qué* detallado y proporcione consejos o pistas de razonamiento.
+- **Checklist Pedagógico:**
+    - ¿Se aplica el **Método Feynman** (claridad y analogías)?
+    - **Feynman Depth Check:** Validar que la simplificación NO haya eliminado detalles técnicos cruciales. Debe ser "simple pero profundo".
+    - ¿Existen elementos de **andamiaje** (tips, guías de seguimiento, glosarios, **recordatorios y trucos**)?
+    - **Verificación de Bloques:** Si el contenido parece resumido por falta de espacio, rechazar y exigir división en bloques de alta calidad.
+    - En caso de edición, ¿se ha mantenido TODO el contenido original (Expandir, no borrar)?
+- **Checklist Técnico de Producción:**
+    - Verificación del uso de **Vue.js, Tailwind CSS y Reveal.js** (si aplica).
+    - Comprobación de que se usan **versiones de producción/minificadas** vía CDN estable.
+    - Ausencia de scripts locales no proporcionados; todo debe ser autoejecutable.
 - **Checklist Mobile Responsive:**
     - Visualización impecable en PC y Móvil (Portrait/Landscape) sin cortes por barras de navegación.
     - Uso de `dvh` y `safe-area-insets`.
