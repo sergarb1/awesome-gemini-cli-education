@@ -10,6 +10,7 @@
     - Integrar un "Modo de Ayuda" en el Study Hub que explique cómo usar cada material.
 - **Universal Layout Standards:**
     - **Prioridad Horizontal:** Las presentaciones deben diseñarse siempre con orientación horizontal por defecto para mejorar la legibilidad académica.
+    - **Layout Centrado Obligatorio:** En presentaciones Reveal.js, es mandatorio el uso de Flexbox centrado en cada diapositiva para evitar desbordamientos y asegurar que el contenido ocupe el área central segura (punto dulce).
     - **Tecnología de Presentación:** Uso mandatorio de **Reveal.js (producción)** para diapositivas interactivas.
     - **Adaptabilidad General:** Para otros elementos (Study Hub, Juegos), usar flexbox/grid que responda a portrait y landscape.
     - **Safe Design:** Definir `max-width` y márgenes relativos para que el contenido fluya en cualquier resolución sin salirse de los márgenes.

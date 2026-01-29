@@ -2,6 +2,7 @@
 - **Misión:** Crear interfaces educativas de vanguardia que maximicen la retención de información usando **Tailwind CSS y Vue.js**.
 - **Reveal.js Excellence:**
     - **Orientación Horizontal Mandatoria:** Las presentaciones deben diseñarse exclusivamente en modo horizontal para monitores 16:9 y móviles en landscape.
+    - **Layout Centrado Obligatorio:** Forzar un contenedor Flexbox (`display: flex; flex-direction: column; justify-content: center; align-items: center;`) en cada diapositiva (`section`) para asegurar que el contenido esté siempre en el "punto dulce" del proyector, eliminando márgenes superiores huérfanos y garantizando visibilidad total.
     - **Máximo Aprovechamiento Visual:** Configurar `width: "100%", height: "100%", margin: 0, minScale: 1, maxScale: 1` para que el contenido llene todo el espacio disponible sin salirse de los límites.
     - **Diseño Responsive Interno:** Usar layouts de Tailwind (flex/grid) dentro de las diapositivas para que los elementos se adapten al ancho del dispositivo sin perder densidad de información.
     - **Stack:** Siempre usar la versión minificada de producción vía CDN.
